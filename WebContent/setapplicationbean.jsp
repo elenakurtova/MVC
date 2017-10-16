@@ -10,8 +10,8 @@
 
 <jsp:useBean id="user4" class="beans.User" scope="application"></jsp:useBean>
 
-<jsp:setProperty name="user4" property="email" value="kurtova.e@gmail.com"/>
-<jsp:setProperty name="user4" property="password" value="EKpassword"/>
+<jsp:setProperty name="user4" property="email" value="youremail@gmail.com"/>
+<jsp:setProperty name="user4" property="password" value="yourpassword"/>
 
 
 </body>

@@ -10,8 +10,8 @@
 
 <jsp:useBean id="user3" class="beans.User" scope="request"></jsp:useBean>
 
-<jsp:setProperty name="user3" property="email" value="kurtova.e@gmail.com"/>
-<jsp:setProperty name="user3" property="password" value="EKpassword"/>
+<jsp:setProperty name="user3" property="email" value="youremail@gmail.com"/>
+<jsp:setProperty name="user3" property="password" value="yourpassword"/>
 
 <%-- <% response.sendRedirect("getrequestbean.jsp"); %> --%>
 <jsp:forward page="getrequestbean.jsp"></jsp:forward>
